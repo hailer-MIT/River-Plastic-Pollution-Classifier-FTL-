@@ -2,13 +2,10 @@
 
 A machine learning project developed as part of the FTL Ethiopia PBL (Project-Based Learning) Labs, aimed at analyzing river plastic pollution levels using both **supervised** and **unsupervised** learning techniques.
 
----
-
 ## 📌 Problem Statement
 
 Plastic pollution in rivers varies across regions, but there is no standardized method to identify or classify high-polluting rivers. Environmental authorities and researchers need automated tools to analyze river pollution data and categorize pollution levels for targeted cleanup efforts.
 
----
 
 ## ✅ Solution Overview
 
@@ -16,7 +13,6 @@ We designed a hybrid machine learning pipeline:
 - **Classification**: Label rivers as *high* or *low* plastic contributors using **Logistic Regression**.
 - **Clustering**: Group rivers based on pollution patterns using **K-Means Clustering** and visualized via **PCA**.
 
----
 
 ## ⚙️ Technical Details
 
@@ -32,7 +28,7 @@ We designed a hybrid machine learning pipeline:
 
 All data preprocessing (cleaning strings, converting percentages, handling missing values) was handled using `pandas`.
 
----
+
 
 ## 🧰 Tools & Libraries Used
 
@@ -42,7 +38,6 @@ All data preprocessing (cleaning strings, converting percentages, handling missi
   - `KMeans`, `LogisticRegression`, `Silhouette Score`, `ROC AUC`
 - **Visualization**: `matplotlib`, `seaborn`, `PCA` for cluster plots
 
----
 
 ## 📊 Results
 
@@ -52,7 +47,6 @@ All data preprocessing (cleaning strings, converting percentages, handling missi
 | K-Means Clustering       | Silhouette Score: **0.714**      |
 | PCA Visualization        | Distinct cluster separation      |
 
----
 
 ## 🧪 How to Run
 
