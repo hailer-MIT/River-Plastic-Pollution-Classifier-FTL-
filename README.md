@@ -1,20 +1,20 @@
-# 🌊 River Plastic Pollution Classifier – FTL Project
+# River Plastic Pollution Classifier – FTL Project
 
 A machine learning project developed as part of the FTL Ethiopia PBL (Project-Based Learning) Labs, aimed at analyzing river plastic pollution levels using both **supervised** and **unsupervised** learning techniques.
 
-## 📌 Problem Statement
+## Problem Statement
 
 Plastic pollution in rivers varies across regions, but there is no standardized method to identify or classify high-polluting rivers. Environmental authorities and researchers need automated tools to analyze river pollution data and categorize pollution levels for targeted cleanup efforts.
 
 
-## ✅ Solution Overview
+## Solution Overview
 
 We designed a hybrid machine learning pipeline:
 - **Classification**: Label rivers as *high* or *low* plastic contributors using **Logistic Regression**.
 - **Clustering**: Group rivers based on pollution patterns using **K-Means Clustering** and visualized via **PCA**.
 
 
-## ⚙️ Technical Details
+## Technical Details
 
 - **Data Source**: A cleaned and preprocessed dataset hosted on Google Drive.
 - **Supervised Learning**:
@@ -30,7 +30,7 @@ All data preprocessing (cleaning strings, converting percentages, handling missi
 
 
 
-## 🧰 Tools & Libraries Used
+## Tools & Libraries Used
 
 - **Python**: `pandas`, `numpy`, `matplotlib`, `seaborn`
 - **ML & Evaluation**:
@@ -39,7 +39,7 @@ All data preprocessing (cleaning strings, converting percentages, handling missi
 - **Visualization**: `matplotlib`, `seaborn`, `PCA` for cluster plots
 
 
-## 📊 Results
+## Results
 
 | Task                     | Model/Score                      |
 |--------------------------|----------------------------------|
@@ -48,9 +48,9 @@ All data preprocessing (cleaning strings, converting percentages, handling missi
 | PCA Visualization        | Distinct cluster separation      |
 
 
-## 🧪 How to Run
+## How to Run
 
-> 💡 No dataset upload required — it auto-downloads from Google Drive.
+> No dataset upload required — it auto-downloads from Google Drive.
 
 1. Clone the repository:
    ```bash
